@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="emoji-chef.css">
+  <title>Emoji Chef</title>
+</head>
+<body>
+
+  <header>
+    <h1>Emoji Chef</h1>
+    <p>Select three emojis to create your recipe!</p>
+    <div class="logo"><img src="shark.jpg"></div>
+  </header>
+  
+  <main>
+    <div class="container">
+      <div class="ingredients"></div>
+
+        <div class="ingredient"><img src="mango.jpg"></div>
+        <div class="ingredient"><img src="pot.jpg"></div>
+        <div class="ingredient"><img src="sushi.jpg"></div>
+        <div class="ingredient"><img src="burger.jpg"></div>
+        <div class="ingredient"><img src="cookie.jpg"></div>
+
+        <div class="bowl">
+          <div class="bowl-slot">?</div>
+          <div class="bowl-slot">?</div>
+          <div class="bowl-slot">?</div>
+        </div>
+
+        <button class="cook-btn" hidden>Creat Recipe!</button>
+        
+    </div>
+
+  </main>
+
+  <div class="modal">
+
+    <div class="modal-box">
+
+      <div class="modal-close">
+        X
+      </div>
+
+      <div class="modal-image"></div>
+
+      <div class="modal-content">
+        <h2>Title</h2>
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="loading hidden">
+    <img src="">
+    <div class="loading-message">Loading...</div>
+  </div>
+  
+  <script src=""></script>
+  <script src="emoji-chef.js"></script>
+</body>
+</html>
